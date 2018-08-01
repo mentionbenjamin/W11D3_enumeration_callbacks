@@ -14,7 +14,7 @@ describe('Journey', function() {
     assert.strictEqual(actual, 'linlithgow');
   });
 
-  it('should have a end location', function() {
+  it('should have an end location', function() {
     const actual = journey1.endLocation;
     assert.strictEqual(actual, 'stirling');
   });
